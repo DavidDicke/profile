@@ -39,7 +39,10 @@ a {
   /* width: 80%; */
   margin: 24px auto;
 }
-
+.card-white p{
+  width: 400px;
+  margin: 0 auto;
+}
 .btn-green{
   background-color: #2ec4b6;
   border-radius: 4px;
@@ -89,7 +92,6 @@ a {
   .card-white {
     width: 700px;
   }
-
 }
 
 @media (max-width: 720px) {
@@ -105,7 +107,7 @@ a {
     width: 300px;
   }
   .card-white p{
-    width: 250px;
+    width: 200px;
   }
   .img-circle {
     width: 200px;
