@@ -20,6 +20,14 @@
   .card-white {
     width: 300px;
   }
+  .card-white p{
+    width: 250px;
+  }
+  .img-circle {
+    width: 200px;
+    height: 250px;
+  }
+
 }
 
 
@@ -89,6 +97,11 @@ a {
 }
 .img-circle{
   border-radius: 50%;
+  background-color: #ef476f;
+}
+.img-greyscale{
+  filter: grayscale(100%) contrast(130%) opacity(80%);
+
 }
 .text-centered{
   text-align: center;
